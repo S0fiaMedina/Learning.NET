@@ -40,4 +40,6 @@ Console.WriteLine(mate.Sum(1, 2)); // por nums
 int[] n = new int[] { 1, 2, 3, 4, 5 };
 Console.WriteLine(mate.Sum(n)); // por array 
 
-
+Console.WriteLine("------------------- SOBREESCRITURA DE METODOS ----------------------");
+Bex b = new Bex();
+Console.WriteLine(b.Hi());

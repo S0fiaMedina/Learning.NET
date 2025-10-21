@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.poo.inheritance
 {
-    internal class Bex
+    internal class Bex : Aex
     {
+
+        
+        public override string Hi()
+        {
+            return Hi() + " Hola, Soy B";
+        }
+
     }
 }
